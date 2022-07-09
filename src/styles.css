@@ -1,4 +1,11 @@
+
+
 body {
+  background-image: url(https://s3.amazonaws.com/shecodesio-production/uploads/files/000/039/795/original/PNW.jpg?1657258661);
+  background-position: center;
+  background-size: 100%;
+
+
   font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
