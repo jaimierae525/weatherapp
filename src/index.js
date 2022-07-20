@@ -37,6 +37,14 @@ function displayWeatherCondition(response) {
     response.data.weather[0].main;
 }
 
+function displayTemperature(response) {
+  console.log(response.data);
+  iconElement.setAttribute(
+    "src",
+    "http://openweathermap.org/img/wn/${response.data.weather[0].icon}@2x.png"
+  );
+}
+
 function searchCity(city) {
   let apiKey = "5f472b7acba333cd8a035ea85a0d4d4c";
   let apiUrl = `https://api.openweathermap.org/data/2.5/weather?q=${city}&appid=${apiKey}&units=metric`;
