@@ -1,16 +1,12 @@
-
-
 body {
   background-image: url(https://s3.amazonaws.com/shecodesio-production/uploads/files/000/039/795/original/PNW.jpg?1657258661);
   background-position: center;
-  background-size: 100%;
-
+  background-size: 150%;
 
   font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
 h1 {
-  
   font-size: 24px;
   font-weight: 100;
   line-height: 28px;
@@ -23,7 +19,6 @@ ul {
 }
 
 li {
- 
   font-size: 14px;
   font-weight: 100;
   height: 19px;
@@ -37,7 +32,7 @@ li {
 }
 
 .weather-app {
-  border: 1px solid #00e5ee;
+  border: 1px solid #2c5455;
   padding: 15px;
   margin: 20px auto;
   border-radius: 15px;
@@ -60,4 +55,12 @@ li {
 .units {
   position: relative;
   top: -34px;
+}
+
+.weather-temperature .active {
+  color: black;
+}
+
+.weather-temperature .active:hover {
+  text-decoration: none;
 }

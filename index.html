@@ -55,13 +55,17 @@
         <div class="row">
           <div class="col-6">
             <div class="clearfix">
-              <img src="https://openweathermap.org/img/wn/01n@2x.png"
-              alt="Clear"
-              id="icon"
+              <img
+                src="https://openweathermap.org/img/wn/01n@2x.png"
+                alt="Clear"
+                id="icon"
               />
-              <div class="float-left">
-                <span class="temperature" id="temperature"></span
-                ><span class="units">°C</span>
+              <div class="float-right">
+                <strong id="temperature"></strong>
+                <span class="units">
+                  <a href="#" id="celsius-link" class="active">°C</a> |
+                  <a hreh="#" id="fahrenheit-link">°F</a>
+                </span>
               </div>
             </div>
           </div>
@@ -74,13 +78,12 @@
         </div>
       </div>
       <small>
-      <a
-         href="https://github.com/jaimierae525/weatherapp" target="_blank" >Open-source code</a>
-         by Jaimie Casias
-        </small>
-       
+        <a href="https://github.com/jaimierae525/weatherapp" target="_blank"
+          >Open-source code</a
+        >
+        by Jaimie Casias
+      </small>
     </div>
     <script src="src/index.js"></script>
   </body>
 </html>
-
